@@ -31,7 +31,7 @@ steps:
   inputs:
     azureSubscriptionEndpoint: "Visual Studio Enterprise with MSDN (307e5a26-2005-49e7-8de1-ed32008bf357)"
     azureContainerRegistry: '{"loginServer":"simondowdeswellrockend.azurecr.io", "id" : "/subscriptions/307e5a26-2005-49e7-8de1-ed32008bf357/resourceGroups/serverless/providers/Microsoft.ContainerRegistry/registries/simondowdeswellrockend"}'
- displayName: Docker Build
+  displayName: Docker Build
  
 - task: Docker@0
   inputs:
